@@ -15,7 +15,7 @@ min-height: 100vh;
 }
 .header{
     width: 1262px;
-    position: fixed;
+   position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -27,6 +27,16 @@ min-height: 100vh;
     z-index: 1000;
 
 }
+.span1{
+    
+   background: white;
+   
+    border-radius: 5px;
+  }
+  .cesta{
+    width: 30px;
+    margin-left: 40px;
+  }
 
 .header::before{
     content: "";
@@ -44,7 +54,7 @@ min-height: 100vh;
 }
 .hero{
     
-    width: 1263px;
+    width: 1231px;
     object-fit: cover;
    
 }
